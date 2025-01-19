@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Correct the font-family name */
+}
+
+nav {
+  background-color: #ccf1f4;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 5px 5px rgb(27, 196, 199);
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 5px 5px rgb(27, 196, 199);
+  font-size: 36px; 
+}
+
+
+nav img {
+  width: 150px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(6, 6, 6);
+}
+
+a:hover {
+  color: #0237d3;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d8c9b3;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: all 700ms ease-in;
+}
+
+.panel h1 {
+  font-size: 35px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h1 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+      width: 100vw;
+      transition: opacity 0.32s ease-in 0.4s;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+      display: none;
+  }
+}
+
+.accordion {
+  margin-left: 12%;
+  margin-right: 15%;
+  width: 1000px;
+}
+
+.accordion li {
+  list-style: none;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #e3edf7;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+              -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.accordion li label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Add more specific selector for the accordion label */
+.accordion li label::before {
+  content: '+';
+  margin-right: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* Input styles for the accordion */
+.accordion input[type="radio"] {
+  display: none;
+}
+
+/* Content styles for the accordion */
+.accordion .content {
+  color: #000000;
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.50s, padding 0.50s;
+}
+
+/* Styling for checked radio buttons in the accordion */
+.accordion input[type="radio"]:checked + label + .content {
+  max-height: 400px;
+  padding: 10px 10px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::before {
+  content: '-';
+}
+
+footer {
+  background-color: #ccf1f4;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}

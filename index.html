@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="all.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <title>Kellie Castle Website</title>
+    <style>
+        /* Dropdown Button Styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <img src="picture/logo.png" alt="Logo">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="tourinformation.html">Tour Information</a></li>
+            <li><a href="multimediagallery.html">Multimedia Gallery</a></li>
+            <li><a href="contact_us.html">Contact</a></li>
+            <li><a href="team_member.html">Team</a></li>
+
+
+
+            <!-- Archive Dropdown Menu -->
+            <li class="dropdown">
+                <a href="#">Archive</a>
+                <div class="dropdown-content">
+                    <a href="httrack_form.html">HTTrack</a>
+                    <a href="conifer_form.html">Conifer</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Slider Section -->
+    <style type="text/css">
+        #slider {
+            overflow: hidden;
+        }
+        #slider figure {
+            position: relative;
+            width: 400%;
+            margin: 0%;
+            left: 0%;
+            animation: 20s slider infinite; 
+        }
+        #slider figure img {
+            float: left;
+            width: 10%;
+        }
+        @keyframes slider {
+            0% { left: 0; }
+            20% { left: 0; }
+            25% { left: -100%; }
+            45% { left: -100%; }
+            50% { left: -200%; }
+            70% { left: -200%; }
+            75% { left: -300%; }
+            95% { left: -300%; }
+        }
+    </style>
+
+    <div id="slider">
+        <figure>
+            <img src="picture/kellie castle 1.jpg">
+            <img src="picture/kellie castle 2.jpg">
+            <img src="picture/kellie castle 3.jpg">
+            <img src="picture/kellie castle 4.jpg">
+            <img src="picture/kellie castle 1.jpg">
+            <img src="picture/kellie castle 2.jpg">
+            <img src="picture/kellie castle 3.jpg">
+            <img src="picture/kellie castle 4.jpg">
+            <img src="picture/kellie castle 1.jpg">
+            <img src="picture/kellie castle 2.jpg">
+        </figure>
+    </div>
+
+    <!-- Welcome Text Section -->
+    <h1 class="text1">Welcome to Kellie’s Castle</h1>
+    <p class="p"><strong>
+        Built with the fortunes made from various enterprises like tin mining, forest clearing, and rubber tree planting, William Kellie-Smith was inspired to give a mighty gift to his beloved family in the form of Kellie’s Castle. 
+        This castle was meant to remind Kellie and his family of their distant home back in Scotland, but with a bit of an exotic flair to match Kellie’s adventurous spirit.
+    </p></strong>
+
+    <!-- HTTrack Button -->
+    <style>
+        /* Style for the HTTrack button */
+        .httrack-button {
+            display: block;
+            width: 200px;
+            margin: 30px auto; /* Centers the button horizontally */
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .httrack-button:hover {
+            background-color: #bbe5ff;
+        }
+    </style>
+
+    <a href="The Perpetual Sunday/index.html" class="httrack-button" target="_blank">View HTTRACK Archived Website</a>
+
+
+    
+    <!-- Footer Section -->
+    <section>
+        <footer>
+            <p>Copyright &copy; 2025 Kellie's Castle Website</p>
+        </footer>
+    </section>
+
+</body>
+</html>

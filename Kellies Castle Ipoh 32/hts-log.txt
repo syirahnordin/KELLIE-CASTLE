@@ -1,0 +1,26 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 23 Dec 2024 21:21:13 at https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/ -O1 "C:\My Web Sites\Kellies Castle Ipoh 32" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:23:45	Warning: 	Retry after error -2 (Receive Time Out) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5707.jpg (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:23:45	Warning: 	Retry after error -2 (Receive Time Out) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5712.jpg (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:23:45	Warning: 	Retry after error -4 (Incorrect length (5085 Bytes, 25494 expected)) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5712.jpg?w=223&h=300 (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:23:48	Warning: 	Retry after error -4 (Incorrect length (2363 Bytes, 1205639 expected)) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5713-1.jpg (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:23:50	Warning: 	Retry after error -4 (Connect Error) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5713-1.jpg?w=223&h=300 (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:23:53	Warning: 	Retry after error -4 (Connect Error) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5716.jpg (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:23:56	Warning: 	Retry after error -4 (Connect Error) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5716.jpg?w=300&h=225 (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:24:00	Warning: 	Retry after error -4 (Connect Error) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5717.jpg (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:24:01	Warning: 	Retry after error -4 (Connect Error) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5717.jpg?w=223&h=300 (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:24:04	Warning: 	Retry after error -4 (Connect Error) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5720.jpg (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:24:05	Warning: 	Retry after error -4 (Connect Error) at link https://gyppotravelreviews.wordpress.com/wp-content/uploads/2017/03/img_5720.jpg?w=300&h=225 (from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/)
+21:24:08	Warning: 	Found for https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/?share=twitter
+21:24:08	Warning: 	File has moved from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/?share=twitter to https://twitter.com/intent/tweet?related=wordpressdotcom&text=Kellie%27s%20Castle%2C%20Ipoh&url=https%3A%2F%2Fgyppotravelreviews.wordpress.com%2F2017%2F03%2F01%2Fkellies-castle-ipoh%2F
+21:24:08	Warning: 	Found for https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/?share=facebook
+21:24:08	Warning: 	File has moved from https://gyppotravelreviews.wordpress.com/2017/03/01/kellies-castle-ipoh/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgyppotravelreviews.wordpress.com%2F2017%2F03%2F01%2Fkellies-castle-ipoh%2F&t=Kellie%27s%20Castle%2C%20Ipoh
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 2 seconds : 53 links scanned, 38 files written (13667206 bytes overall) [13234907 bytes received at 72719 bytes/sec], 567364 bytes transferred using HTTP compression in 14 files, ratio 19%, 1.3 requests per connection
+(No errors, 15 warnings, 0 messages)
