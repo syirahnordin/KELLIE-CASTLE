@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="team_member.css">
+    <link rel="stylesheet" href="all.css">
+    <title>Our Team Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center; /* Center the entire content */
+        }
+
+        .wrapper {
+            padding: 20px;
+        }
+
+        h1{
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 5px 5px rgb(27, 196, 199);
+}
+
+        .team {
+            display: flex;
+            justify-content: center; /* Center the team cards horizontally */
+            gap: 20px; /* Add space between cards */
+            flex-wrap: wrap; /* Allow wrapping for smaller screens */
+        }
+
+        .team_member {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .team_member:hover {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        .team_img img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+            color: #333;
+            margin: 15px 0 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        footer {
+    background-color: #ccf1f4;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+        <style>
+        /* Dropdown Button Styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+    </style>
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <img src="picture/logo.png" alt="Logo">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="tourinformation.html">Tour Information</a></li>
+            <li><a href="multimediagallery.html">Multimedia Gallery</a></li>
+            <li><a href="contact_us.html">Contact</a></li>
+            <li><a href="team_member.html">Team</a></li>
+            <!-- Archive Dropdown Menu -->
+            <li class="dropdown">
+                <a href="#">Archive</a>
+                <div class="dropdown-content">
+                    <a href="httrack_form.html">HTTrack</a>
+                    <a href="conifer_form.html">Conifer</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <h1>Our Team</h1>
+        <div class="team">
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="picture/dini.jpg" alt="team_member_image">
+                </div>
+                <h4>Nur Dini</h4>
+                <p class="role">Role: Developer</p>
+                <p>Develops website functionality and integrates key features to enhance user experience.</p>
+            </div>
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="picture/asyirah.png" alt="team_member_image">
+                </div>
+                <h4>Nurul Asyirah</h4>
+                <p class="role">Role: Project Manager</p>
+                <p>Manages project timelines, organizes tasks, and ensures smooth collaboration among team members.</p>
+            </div>
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="picture/shahira.JPG" alt="team_member_image">
+                </div>
+                <h4>Nurul Shahira</h4>
+                <p class="role">Role: Designer</p>
+                <p>Responsible for crafting the website's layout, aesthetics, and user-friendly interfaces.</p>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <footer>
+            <p>Copyright &copy; 2025 Kellie's Castle Website</p>
+        </footer>
+    </section>
+</body>
+</html>

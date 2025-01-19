@@ -1,0 +1,162 @@
+/* Global styles */
+body {
+    font-size: 20px;
+    background-image: url(picture/background01.png);
+    background-size: 100%;
+    font-family: -apple-system, sans-serif;
+}
+
+header {
+    letter-spacing: -2px;
+    text-align: center;
+    font-size: 70px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px black;
+    font-weight: 600;
+}
+
+/* Navigation styles */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6c5d42;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #9e8659;
+}
+
+ul.navbar .active {
+    background-color: #e9cda6;
+    color: black;
+}
+
+/* Container styles */
+.container1 {
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Panel styles */
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: all 700ms ease-in;
+}
+
+.panel h1 {
+    font-size: 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h1 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100vw;
+        transition: opacity 0.32s ease-in 0.4s;
+    }
+
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none;
+    }
+}
+
+/* Accordion styles */
+.accordion {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Add more specific selector for the accordion label */
+.accordion li label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Input styles for the accordion */
+.accordion input[type="radio"] {
+    display: none;
+}
+
+/* Content styles for the accordion */
+.accordion .content {
+    color: #000000;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.50s, padding 0.50s;
+}
+
+/* Styling for checked radio buttons in the accordion */
+.accordion input[type="radio"]:checked + label + .content {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::before {
+    content: '-';
+}
