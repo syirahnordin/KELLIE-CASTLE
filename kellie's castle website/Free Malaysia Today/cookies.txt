@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.freemalaysiatoday.com	TRUE	/	FALSE	1999999999	__cf_bm	_eDk8JYhwL.DULvg9pS2CvJJWVDETNI9lSoXbj6Knsk-1733780771-1.0.1.1-ypYrO4DQdYZB1r.nyAxcLDKfbaWqz9t2dWGn3e9DV6RBne6l27r7RhL8vQ1VcLUq9OzaA0wMQxBY2mGVYy.H0g
-www.freemalaysiatoday.com	TRUE	/	FALSE	1999999999	SameSite	None
-
